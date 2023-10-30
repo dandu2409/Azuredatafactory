@@ -1,0 +1,31 @@
+Azure Data Factory (ADF) is composed of several key components that work together to enable data integration, transformation, and management. These components include:
+
+1. Author and Monitor: This is the web-based Azure portal where you design, configure, monitor, and manage your data pipelines.
+
+2. Data Flows: Data flows are used for data transformation within ADF. You can create data flow activities to define the data transformation logic.
+
+3. Pipelines: Pipelines are the workflow or container for activities. Activities within a pipeline represent the actions you want to perform, such as data movement or transformation.
+
+4. Activities: ADF supports various types of activities, including copy data activities (for data movement), data flow activities (for transformation), and custom activities (where you can run custom code or scripts).
+
+5. Linked Services: Linked services define the connection to external data sources or destinations. You configure linked services to establish the connection to databases, file systems, and other data sources.
+
+6. Datasets: Datasets represent the data structures that you want to use in your activities. They define the schema and structure of the data you are working with.
+
+7. Triggers:Triggers define when a pipeline should be executed. ADF supports different trigger types, including on-demand, schedule-based, and event-based triggers.
+
+8. Integration Runtimes: Integration runtimes define the compute infrastructure used to execute your data integration activities. ADF supports several types of integration runtimes, including Azure, Self-hosted, and Azure-SSIS (for SQL Server Integration Services).
+
+9. Data Lake Storage: ADF can work with Azure Data Lake Storage to store and manage large volumes of data.
+
+10. Data Movement Services: ADF includes services for efficiently moving data from source to destination, including copy data activities and Azure Data Factory Data Movement Service.
+
+11. Monitoring and Management Tools: ADF provides monitoring and management tools within the Azure portal, allowing you to track pipeline runs, set up alerts, and manage your data workflows.
+
+12. Azure Data Factory Data Flow: This is a visual interface for designing data transformation logic. It's used within data flow activities to define data transformations.
+
+13. Azure Data Factory Mapping Data Flow:Mapping data flows offer a visual design interface to transform data at scale within a Data Flow activity.
+
+14. Data Factory GitHub Integration: ADF can be integrated with GitHub for version control and collaborative development of data integration solutions.
+
+These components collectively enable you to build, schedule, and manage data workflows, making it easier to extract value from your data assets and move data across various data sources and destinations.
